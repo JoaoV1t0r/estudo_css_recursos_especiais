@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo{
+    background: #dcdcdc;
+    height: 600px;
+    display: flex;
+
+    /* flex-direction: row;
+    /* flex-wrap: nowrap; 
+    justify-content: space-around;
+    align-items: baseline; */
+}
+/* .ordem{
+    order: 0;
+} */
+.item{ 
+    /* width: 200px; */
+    height: 200px;
+    background: white;
+    border: 1px solid green;
+    margin: 10px;
+    /* Define o espaço que um item ocupa */
+    /* flex-grow: 0; */
+    /* Define a capicidade de reduçãao do tamanho */
+    /* flex-shrink: 1; */
+    /* Define o tamanho inicial do flex item 
+    antes da distribuição do espaço restante*/
+    flex-basis: 200px;
+}
+.item1{
+    /* flex-grow: 5; */
+    /* flex-shrink: 2; */
+
+}                               

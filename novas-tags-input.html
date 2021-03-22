@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas Tags de Input</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/novas-tags-input.css">
+</head>
+<body>
+    <form action="" >
+        <!-- required autofocus -->
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <label for="numero">Número:</label>
+        <input type="number" name="numero" min="5" max="10" >
+        <br><br>
+
+        <label for="url">Url:</label>
+        <input type="url" name="url" >
+        <br><br>
+
+        <label for="pesquisa">Pesquisa:</label>
+        <input type="search" name="pesquisa" >
+        <br><br>
+        
+        <label for="range">Range:</label>
+        <input type="range" name="range" min="1" max="20" value="15">
+        <br><br>
+
+        <label for="data">Data:</label>
+        <input type="date" name="data" >
+        <br><br>
+
+        <label for="cor">Cor:</label>
+        <input type="color" name="cor" >
+        <br><br>
+
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
